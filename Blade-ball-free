@@ -29,7 +29,7 @@ PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 ]]
 
 local Section = Tab:AddSection({
-	Name = "Main note script auto Parry is supposed long range but not supposed 150 ping"
+	Name = "Main note script auto Parry is support long range but not support 150 ping"
 })
 
 --[[
