@@ -29,7 +29,7 @@ PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 ]]
 
 local Section = Tab:AddSection({
-	Name = "Script"
+	Name = "Main note script auto Parry is supposed long range but not supposed 150 ping"
 })
 
 --[[
@@ -53,7 +53,9 @@ Time = <number> - The duration of the notfication.
 Tab:AddButton({
 	Name = "Auto Parry!",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/sirapobsriumang/Auto-Parry-Private-Op-Dontopen/main/Blade-ball"))()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/Nyzw1AQb"))()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sirapobsriumang/Auto-Spam-Parry/main/Bladeballnew"))()
   	end    
 })
 
@@ -90,13 +92,6 @@ Tab:AddButton({
 	Name = "Hold to block to Spam!",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Spam",true))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "auto parry for close conbat!",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/sirapobsriumang/Auto-Parry-Powerfull/main/Bladeballscript"))()
   	end    
 })
 
